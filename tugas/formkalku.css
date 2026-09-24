@@ -1,0 +1,38 @@
+ .kotak {
+            border: 1px yellow solid;
+            width: 350px;
+            padding: 10px;
+            background-color: greenyellow;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px;
+            font-size: 18px;
+        }
+        input[type="text"] {
+            width: 150px;
+            padding: 3px;
+        }
+
+        button {
+            width: 32px;
+            height: 32px;
+            font-size: 16px;
+            font-weight: bold;
+            color: gold;
+            border: 5px solid seagreen;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        body {
+             background: linear-gradient(to bottom, orange, magenta);
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+        }
+
+        .btn-tambah { background-color: green; } 
+        .btn-kurang { background-color: red; } 
+        .btn-kali   { background-color: blueviolet; } 
+        .btn-bagi   { background-color: cyan; } 

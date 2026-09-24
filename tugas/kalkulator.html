@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" type="text/css" href="formkalku.css">
+</head>
+<body> 
+
+    <div class="kotak">
+        <form name="formhitung">
+            <table>
+                <tr>
+                    <td>Input Bilangan 1</td>
+                    <td><input type="text" name="bil1"></td>
+                </tr>
+                <tr>
+                    <td>Input Bilangan 2</td>
+                    <td><input type="text" name="bil2"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn-tambah" onclick="hitung('+')">+</button>
+                        <button type="button" class="btn-kurang" onclick="hitung('-')">-</button>
+                        <button type="button" class="btn-kali" onclick="hitung('*')">x</button>
+                        <button type="button" class="btn-bagi" onclick="hitung('/')">/</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Output</td>
+                    <td><input type="text" name="hasil" readonly></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <br>
+    <a href="tugas2.html">Kembali ke Form</a>
+
+    <!-- Memanggil file JavaScript eksternal -->
+    <script src="kalkulator.js"></script>
+
+</body>
+</html>
