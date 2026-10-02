@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bootstrap</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+        .card-img-top {
+            height: 200px;
+            object-fit: contain;
+            padding: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Profil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hubungi</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tutorial
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="d-flex gap-2">
+                <a class="btn btn-outline-success" href="#">Daftar</a>
+                <a class="btn btn-outline-primary" href="#">Masuk</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </div>
+
+    <section class="py-4">
+        <div class="container">
+            <div class="row">
+                 <div class="col align-self-center">Konten
+                     <h1 style="font-family: 'Cabin Condensed'">Hai!<br/>Selamat Datang di Proweb</h1>
+                     <p class="mt-3 mb-4">
+                        Belajar permrograman web mulai dari HTML, CSS, Javascript, PHP, MySQL, Bootstrap, Laravel, Codeigniter dan masih banyak lagi.
+                     </p>
+                     <a href="#" class="btn btn-success">Mulai Belajar</a>
+                 </div>
+                 <div class="col d-none d-lg-block d-xl-block">
+                    <img src="ngoding.jpg" class="img-fluid" width="600" alt="Ngoding" >
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Berita & Informasi</h2>
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="htmlcss.jpg" class="card-img-top" alt="Berita 1">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Tutorial HTML & CSS</h5>
+                            <p class="card-text">Pelajari dasar-dasar pemuatan tata letak web modern menggunakan HTML dan CSS terkini.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="bootstrap.jpg" class="card-img-top" alt="Berita 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Panduan Bootstrap 5</h5>
+                            <p class="card-text">Membuat tampilan website yang responsif dan fleksibel di berbagai perangkat dengan cepat.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="javascript.jpg" class="card-img-top" alt="Berita 3">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Dasar JavaScript</h5>
+                            <p class="card-text">Pahami konsep logika pemrograman web interaktif menggunakan JavaScript modern.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="bootstrap.js"></script>
+</body>
+</html>
